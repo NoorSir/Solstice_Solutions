@@ -130,7 +130,9 @@
                     <a href="#" class="dropdown-item">Graphics Designing</a>
                 </div>
                 </div>
-                <a href="#" class="nav-item nav-link">Portfolio</a>
+                <form method="get" action>
+			<a type ="submit"class="nav-item nav-link" target="_blank" href="{{asset('document\Solstice-Solution-Profile.pdf')}}" >Portfolio</a>
+			</form>
                 <a href="#" class="nav-item nav-link">Process</a>
                 <a href="#" class="nav-item nav-link">Blog</a>
                 <!-- <a href="#" class="nav-item nav-link">Contact Us</a> -->
