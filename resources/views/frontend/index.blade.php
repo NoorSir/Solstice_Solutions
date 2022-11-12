@@ -5,7 +5,7 @@
       <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img class="w-100" src="img/carousel-1.jpg" alt="Image" />
+            <img class="w-100" src="{{asset('img\carousel-1.jpg')}}" alt="Image" />
             <div class="carousel-caption">
               <div class="container">
                 <div class="row">
@@ -25,7 +25,7 @@
             </div>
           </div>
           <div class="carousel-item">
-            <img class="w-100" src="img/carousel-2.jpg" alt="Image" />
+            <img class="w-100" src="{{asset('img\carousel-2.jpg')}}" alt="Image" />
             <div class="carousel-caption">
               <div class="container">
                 <div class="row">
@@ -92,7 +92,7 @@
                 >
                   <img
                     class="img-fluid"
-                    src="img/icon/Webicon.png"
+                    src="{{asset('img\icon\Webicon.png')}}"
                     alt=""
                   />
                 </div>
@@ -112,7 +112,7 @@
                 >
                   <img
                     class="img-fluid"
-                    src="img/icon/digitalicon.png"
+                    src="{{('img\icon\digitalicon.png')}}"
                     alt=""
                   />
                 </div>
@@ -132,7 +132,7 @@
                 >
                   <img
                     class="img-fluid"
-                    src="img/icon/graphicicon.png"
+                    src="{{asset('img\icon\graphicicon.png')}}"
                     alt=""
                   />
                 </div>
@@ -152,7 +152,7 @@
                 >
                   <img
                     class="img-fluid"
-                    src="img/icon/appicon.png"
+                    src="{{asset('img\icon\appicon.png')}}"
                     alt=""
                   />
                 </div>
@@ -172,7 +172,7 @@
                 >
                   <img
                     class="img-fluid"
-                    src="img/icon/Ecommerceicon.png"
+                    src="{{asset('img\icon\Ecommerceicon.png')}}"
                     alt=""
                   />
                 </div>
@@ -192,7 +192,7 @@
                 >
                   <img
                     class="img-fluid"
-                    src="{{asset('img/icon/contenticon.png')}}"
+                    src="{{asset('img\icon\contenticon.png')}}"
                     alt=""
                   />
                 </div>
@@ -228,7 +228,7 @@
       <div id="services-carousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img class="w-100" src="{{asset('img/carousel-1.jpg')}}" alt="Image" />
+            <img class="w-100" src="{{asset('img\carousel-1.jpg')}}" alt="Image" />
             <!-- <div class="carousel-caption">
               <div class="container">
                 <div class="row">
@@ -248,7 +248,7 @@
             </div> -->
           </div>
           <div class="carousel-item">
-            <img class="w-100" src="{{asset('img/carousel-2.jpg')}}" alt="Image" />
+            <img class="w-100" src="{{asset('img\carousel-2.jpg')}}" alt="Image" />
             <!-- <div class="carousel-caption">
               <div class="container">
                 <div class="row">
@@ -303,11 +303,11 @@
                 <div
                   class="service-icon"
                 >
-                  <img
-                    class="img-fluid"
-                    src="{{asset('img\icon\Webicon.png')}}"
-                    alt=""
-                  />
+                    <img
+                        class="img-fluid"
+                        src="{{asset('img\icon\Webicon.png')}}"
+                        alt=""
+                    />
                 </div>
                 <h6 class="mb-0">Web Development</h6>
               </div>
@@ -323,11 +323,11 @@
                 <div
                   class="service-icon flex-shrink-0 "
                 >
-                  <img
-                    class="img-fluid"
-                    src="{{asset('img\icon\digitalicon.png')}}"
-                    alt=""
-                  />
+                    <img
+                        class="img-fluid"
+                        src="{{asset('img\icon\digitalicon.png')}}"
+                        alt=""
+                    />
                 </div>
                 <h6 class="mb-0">Digital Marketing</h6>
               </div>
@@ -343,11 +343,11 @@
                 <div
                   class="service-icon flex-shrink-0 "
                 >
-                  <img
-                    class="img-fluid"
-                    src="{{asset('img\icon\graphicicon.png')}}"
-                    alt=""
-                  />
+                    <img
+                        class="img-fluid"
+                        src="{{asset('img\icon\graphicicon.png')}}"
+                        alt=""
+                    />
                 </div>
                 <h6 class="mb-0">Graphic Designing</h6>
               </div>
@@ -365,7 +365,7 @@
                 >
                   <img
                     class="img-fluid"
-                    src="img/icon/appicon.png"
+                    src="{{asset('img\icon\appicon.png')}}"
                     alt=""
                   />
                 </div>
@@ -507,7 +507,7 @@
           <p> We believe in providing limitless custom software development services to everyone. There is always an opportunity to shine, stand out, learn, and progress no matter what department or project you work on.</p>
         </div>
         <div class="col-12 mx-col-3 mx-sm-3 mx-md-0 col-md-6 col-lg-6 wow fadeInRight d-flex justify-content-center align-items-center d-md-flex justify-content-md-start align-items-md-start">
-          <img class="col-11 col-lg-12 col-md-12" src="img/group.jpg" alt="">
+          <img class="col-11 col-lg-12 col-md-12" src="{{asset('img\group.jpg')}}" alt="">
         </div>
       </div>
     </div>
@@ -597,5 +597,9 @@
         </div>
       </div>
     </div>
-    
+    <div class=" mt-5 get-touch d-flex align-items-center justify-content-center wow fadeInUp">
+        <a href="contact.html" target="_blank">
+            <h1 >Get in Touch with US <img src="img/icon/anchor.png" alt="" width="20px"></h1>
+        </a>
+    </div>
 @endsection

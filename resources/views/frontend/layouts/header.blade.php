@@ -113,8 +113,8 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav mx-auto rounded pe-4 py-3 py-lg-0">
-                <a href="index.html" class="nav-item nav-link active">Home</a>
-                <a href="#" class="nav-item nav-link">About Us</a>
+                <a href="{{url('/')}}" class="nav-item nav-link active">Home</a>
+                <a href="{{url('/about-us')}}" class="nav-item nav-link">About Us</a>
                 <div class="nav-item dropdown">
                 <a
                     href="#"
@@ -123,7 +123,7 @@
                     >Services</a
                 >
                 <div class="dropdown-menu bg-light border-0 m-0">
-                    <a href="#" class="dropdown-item">Website Development</a>
+                    <a href="webdevelopment" class="dropdown-item">Website Development</a>
                     <a href="#" class="dropdown-item">Software Development</a>
                     <a href="#" class="dropdown-item">Mobile App Development</a>
                     <a href="#" class="dropdown-item">Digital Marketing</a>
