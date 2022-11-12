@@ -1,4 +1,5 @@
-
+<DOCTYPE! html>
+    <html>
 
     <head>
         <meta charset="utf-8" />
@@ -138,4 +139,4 @@
             <a href="" class="btn btn-primary px-3 d-none d-lg-block">Contact Us</a>
         </nav>
         <!-- Navbar End -->
-    </body>
+    
