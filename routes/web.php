@@ -19,3 +19,5 @@ Route::get('/', function () {
 });
 
 Route::get('/about-us', [FrontendController::class, 'about']);
+Route::get('/webdevelopment', [FrontendController::class, 'webdevelopment']);
+

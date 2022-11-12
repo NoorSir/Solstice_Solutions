@@ -17,6 +17,11 @@ class FrontendController extends Controller
         return view('frontend.about');
     }
 
+    public function webdevelopment()
+    {
+        return view('frontend.webdevelopment');
+    }
+
     /**
      * Show the form for creating a new resource.
      *
