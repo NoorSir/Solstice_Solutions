@@ -303,11 +303,11 @@
                 <div
                   class="service-icon"
                 >
-                  <img
-                    class="img-fluid"
-                    src="{{asset('img\icon\Webicon.png')}}"
-                    alt=""
-                  />
+                    <img
+                        class="img-fluid"
+                        src="{{asset('img\icon\Webicon.png')}}"
+                        alt=""
+                    />
                 </div>
                 <h6 class="mb-0">Web Development</h6>
               </div>
@@ -323,11 +323,11 @@
                 <div
                   class="service-icon flex-shrink-0 "
                 >
-                  <img
-                    class="img-fluid"
-                    src="{{asset('img\icon\digitalicon.png')}}"
-                    alt=""
-                  />
+                    <img
+                        class="img-fluid"
+                        src="{{asset('img\icon\digitalicon.png')}}"
+                        alt=""
+                    />
                 </div>
                 <h6 class="mb-0">Digital Marketing</h6>
               </div>
@@ -343,11 +343,11 @@
                 <div
                   class="service-icon flex-shrink-0 "
                 >
-                  <img
-                    class="img-fluid"
-                    src="{{asset('img\icon\graphicicon.png')}}"
-                    alt=""
-                  />
+                    <img
+                        class="img-fluid"
+                        src="{{asset('img\icon\graphicicon.png')}}"
+                        alt=""
+                    />
                 </div>
                 <h6 class="mb-0">Graphic Designing</h6>
               </div>

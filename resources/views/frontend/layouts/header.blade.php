@@ -114,7 +114,7 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav mx-auto rounded pe-4 py-3 py-lg-0">
                 <a href="index.html" class="nav-item nav-link active">Home</a>
-                <a href="#" class="nav-item nav-link">About Us</a>
+                <a href="{{url('/about-us')}}" class="nav-item nav-link">About Us</a>
                 <div class="nav-item dropdown">
                 <a
                     href="#"
