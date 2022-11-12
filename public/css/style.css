@@ -7,7 +7,7 @@ a:hover{
     color: rgb(85, 84, 84);
 }
 .topbar{
-    background-color: #0070FB;
+    background-color:#E44647;
     color: white;
 }
 :root {
@@ -109,7 +109,8 @@ a:hover{
 
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
-    color: var(--primary);
+    /* color: var(--primary); */
+    color: #E44647;
 }
 
 .navbar .dropdown-toggle::after {
@@ -138,6 +139,7 @@ a:hover{
 .get-touch h1{
     color:white;
 }
+
 
 
 @media (max-width: 991.98px) {
@@ -198,8 +200,9 @@ a:hover{
 .carousel-control-next-icon {
     width: 3rem;
     height: 3rem;
-    background-color: var(--primary);
-    border: 15px solid var(--primary);
+    /* background-color: var(--primary); */
+    background-color: #E44647;
+    border: 15px solid #E44647;
     border-radius: 50px;
 }
 
@@ -499,4 +502,104 @@ a:hover{
 
 .footer .copyright a:hover {
     color: #FFFFFF;
+}
+
+/* projects section */
+
+.project{
+    /* background-color:#111111; */
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  }
+  .content {
+    position: relative;
+    margin: auto;
+    /* box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em; */
+    overflow: hidden;
+    
+  }
+  .content .content-overlay {
+    /* background:rgb(255 98 0 / 70%); */
+    background: hsla(0, 75%, 58%, 0.699);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+  }
+  .content:hover .content-overlay{
+    opacity: 1;
+  }
+  .content-image{
+    width: 100%;
+  }
+  .content-details {
+    position: absolute;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }
+  .content:hover .content-details{
+    top: 55%;
+    left: 50%;
+    opacity: 1;
+  }
+  .content-details h6{
+    color: #fff;
+    position: relative;
+    text-align: center;
+    /* margin-top: 30%; */
+    /* margin-left: 1%; */
+    left: 1%;
+    right: auto;
+    font-weight: 500;
+    margin-bottom: 0.5em;
+    text-transform: uppercase;
+  }
+  .content-details p{
+    color: #fff;
+    margin-left: 1%;
+    font-size: 0.8em;
+  }
+  .fadeIn-bottom{
+    top: 80%;
+  }
+  .fadeIn-top{
+  
+    top: 20%;
+  }
+  .fadeIn-left{
+    left: 20%;
+  }
+  .fadeIn-right{
+    left: 80%;
+  }
+ 
+  
+  /* project section css end */
+
+  /* btn css */
+  /* contact-btn */
+.btns,.btns:hover{
+    background-color: #E44647;
+    color: white;
+}
+.btn .btn-link{
+    color: unset;
+    color: white;
 }

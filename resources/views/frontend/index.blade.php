@@ -16,7 +16,7 @@
                     <p class="fs-5 text-body mb-5">
                      Establishing a comprehensive web development approach to drive tangible desired outcomes.
                     </p>
-                    <a href="" class="btn btn-primary py-3 px-5 mt-5"
+                    <a href="" class="btn btns btns py-3 px-5 mt-5"
                       >More Details</a
                     >
                   </div>
@@ -37,7 +37,7 @@
                     <p class="fs-5 text-white mb-5">
                       Delight your customers with secure,scable and feature-rich eCommerce Omnichannel solutions.
                     </p>
-                    <a href="" class="btn btn-primary py-3 px-5"
+                    <a href="" class="btn btns   py-3 px-5"
                       >More Details</a
                     >
                   </div>
@@ -381,9 +381,121 @@
         </div>
       </div>
       <div class="text-center mt-5">
-      <button class="btn btn-primary "><a href="#" class="" style="color:white">Get Started</a></button>
+      <button class="btn btns "><a href="#" class="text-white">Get Started</a></button>
     </div>
     </div>
+     
+    	<!-- Project Section -->
+
+	<div class="project mb-2 mt-5"><br>
+		<div class="mt-3 container"><h4>Projects</h4></div>
+		<div class="row mt-4 mx-5  mx-sm-5 mx-md-5 mx-lg-0 wow fadeInUp">
+            <div class="mt-4  mt-sm-0  col-12 col-sm-6 col-md-4 col-lg-4">
+                <a href="#">
+                    <div class="content">
+                        
+                        <div class="content-overlay"></div>
+                        <img src="{{asset('img\projectimg.png')}} "alt="" width="100%">
+                        <div class="content-details fadeIn-bottom">
+                            <h6 class="content-title">Nature WEB Development</h6>
+                            <p class="content-text">in Website</p>
+                        </div>
+                    </div>
+            </a>
+            </div>
+
+			<div class="mt-4  mt-sm-0  col-12 col-sm-6 col-md-4 col-lg-4">
+				<div class="content">
+					<div class="content-overlay"></div>
+					<img src="{{asset('img\projectimg.png')}} "alt="" width="100%">
+					<div class="content-details fadeIn-bottom">
+					    <h6 class="content-title">Nature WEB Development</h6>
+						<p class="content-text">in Website</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="mt-4  mt-sm-4 mt-md-0 col-12 col-sm-6 col-md-4 col-lg-4">
+				<div class="content">
+					<div class="content-overlay"></div>
+					<img src="{{asset('img\projectimg.png')}} " alt="" width="100%">
+					<div class="content-details fadeIn-bottom">
+                        <h6 class="content-title">Nature WEB Development</h6>
+						<p class="content-text">in Website</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="mt-4 mt-md-4 mt-sm-4 mt-lg-4 col-12 col-sm-6 col-md-4 col-lg-4">
+				<div class="content">
+					<div class="content-overlay"></div>
+					<img src="{{asset('img\projectimg.png')}}" alt="" width="100%">
+					<div class="content-details fadeIn-bottom">
+					    <h6 class="content-title">Nature WEB Development</h6>
+						<p class="content-text">in Website</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="mt-4 col-12 col-sm-6 col-md-4 col-lg-4">     
+				<div class="content">
+					<div class="content-overlay"></div>
+					<img src="{{asset('img\projectimg.png')}}" alt="" width="100%">
+					<div class="content-details fadeIn-bottom">
+                        <h6 class="content-title">Nature WEB Development</h6>
+						<p class="content-text">in Website</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="mt-4  mt-sm-4  col-12 col-sm-6 col-md-4 col-lg-4">
+				<div class="content">
+					<div class="content-overlay"></div>
+					<img src="{{asset('img\projectimg.png')}}" alt="" width="100%">
+					<div class="content-details fadeIn-bottom">
+                        <h6 class="content-title">Nature WEB Development</h6>
+						<p class="content-text">in Website</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="mt-4  mt-sm-4 mt-md-4 col-12 col-sm-6 col-md-4 col-lg-4">
+				<div class="content">
+					<div class="content-overlay"></div>
+					<img src="{{asset('img\projectimg.png')}}" alt="" width="100%">
+					<div class="content-details fadeIn-bottom">
+                        <h6 class="content-title">Nature WEB Development</h6>
+						<p class="content-text">in Website</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="mt-4 mt-md-4 mt-sm-4 mt-lg-4 col-12 col-sm-6 col-md-4 col-lg-4">
+				<div class="content">
+					<div class="content-overlay"></div>
+					<img src="{{asset('img\projectimg.png')}}" alt="" width="100%">
+					<div class="content-details fadeIn-bottom">
+                        <h6 class="content-title">Nature WEB Development</h6>
+						<p class="content-text">in Website</p>
+					</div>
+				</div>
+			</div>
+
+            <div class="mt-4 mt-md-4 mt-sm-4 mt-lg-4 col-12 col-sm-6 col-md-4 col-lg-4">
+				<div class="content">
+					<div class="content-overlay"></div>
+					<img src="{{asset('img\projectimg.png')}}" alt="" width="100%">
+					<div class="content-details fadeIn-bottom">
+					    <h6 class="content-title">Nature WEB Development</h6>
+						<p class="content-text">in Website</p>
+					</div>
+				</div>
+			</div>
+
+			
+		</div>		
+	</div>
+
     <!-- Our Team & Culture -->
     <div class=" mt-5 mx-3">
       <div class="row container-fluid">
@@ -460,7 +572,7 @@
                   </div>
                 </div>
                 <div class="col-12">
-                  <button class="btn btn-primary py-3 px-5" type="submit">
+                  <button class="btn btns  py-3 px-5" type="submit">
                     Send Message
                   </button>
                 </div>
@@ -485,9 +597,5 @@
         </div>
       </div>
     </div>
-    <div class=" mt-5 get-touch d-flex align-items-center justify-content-center wow fadeInUp">
-        <a href="contact.html" target="_blank">
-            <h1 >Get in Touch with US <img src="img/icon/anchor.png" alt="" width="20px"></h1>
-        </a>
-    </div>
+    
 @endsection

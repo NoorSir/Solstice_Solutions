@@ -2,9 +2,14 @@
 
     <!-- Footer Start -->
     <div
-      class="container-fluid bg-dark footer  pt-5 wow fadeIn"
+      class="container-fluid btns  footer  pt-5 wow fadeIn"
       data-wow-delay="0.1s"
     >
+    <div class=" mt-5 get-touch btns d-flex align-items-center justify-content-center wow fadeInUp">
+        <a href="contact.html" target="_blank">
+            <h1 >Get in Touch with US <img src="img/icon/anchor.png" alt="" width="20px"></h1>
+        </a>
+    </div>
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
@@ -43,18 +48,18 @@
                     <p><i class="fa fa-envelope me-3"></i> info@solsticesolution.com</p>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <h5 class="text-light mb-4">Quick Links</h5>
-                    <a class="btn btn-link" href="">About Us</a>
-                    <a class="btn btn-link" href="">Contact Us</a>
-                    <a class="btn btn-link" href="">Our Services</a>
-                    <a class="btn btn-link" href="">Terms & Condition</a>
-                    <a class="btn btn-link" href="">Support</a>
+                    <h5 class="text-light  mb-4">Quick Links</h5>
+                    <a class="btn btn-link text-white" href="">About Us</a>
+                    <a class="btn btn-link text-white" href="">Contact Us</a>
+                    <a class="btn btn-link text-white" href="">Our Services</a>
+                    <a class="btn btn-link text-white" href="">Terms & Condition</a>
+                    <a class="btn btn-link text-white" href="">Support</a>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-light mb-4">Our Services</h5>
-                    <a class="btn btn-link" href="">Web Development</a>
-                    <a class="btn btn-link" href="">Software Development</a>
-                    <a class="btn btn-link" href="">Ditigal Marketing</a>
+                    <a class="btn btn-link text-white" href="">Web Development</a>
+                    <a class="btn btn-link text-white" href="">Software Development</a>
+                    <a class="btn btn-link text-white" href="">Ditigal Marketing</a>
                 </div>
             </div>
         </div>
@@ -77,7 +82,7 @@
     <!-- Footer End -->
 
     <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"
+    <a href="#" class="btn btn-lg btns btn-lg-square back-to-top"
     ><i class="bi bi-arrow-up"></i
     ></a>
     </html>

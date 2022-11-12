@@ -98,7 +98,7 @@
             <h1 class="m-0">
                 <img
                 class="img-fluid me-3"
-                src="{{asset('img\logo.png')}}"
+                src="{{asset('img\logo-pink.png')}}"
                 alt=""
                 />
             </h1>
@@ -144,7 +144,7 @@
                 <!-- <a href="#" class="nav-item nav-link">Contact Us</a> -->
             </div>
             </div>
-            <a href="" class="btn btn-primary px-3 d-none d-lg-block">Contact Us</a>
+            <a href="" class="btn btns px-3 d-none d-lg-block">Contact Us</a>
         </nav>
         <!-- Navbar End -->
     
