@@ -597,9 +597,9 @@
         </div>
       </div>
     </div>
-    <div class=" mt-5 get-touch d-flex align-items-center justify-content-center wow fadeInUp">
+    <!-- <div class=" mt-5 get-touch d-flex align-items-center justify-content-center wow fadeInUp">
         <a href="contact.html" target="_blank">
             <h1 >Get in Touch with US <img src="img/icon/anchor.png" alt="" width="20px"></h1>
         </a>
-    </div>
+    </div> -->
 @endsection
