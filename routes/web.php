@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\FrontendController;
+use App\Http\Controllers\MailController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,4 +21,7 @@ Route::get('/', function () {
 
 Route::get('/about-us', [FrontendController::class, 'about']);
 Route::get('/webdevelopment', [FrontendController::class, 'webdevelopment']);
+
+// Route::get('/', [MailController::class, 'index']);
+Route::post('/', [MailController::class, 'store'])->name('contact.us.store');
 

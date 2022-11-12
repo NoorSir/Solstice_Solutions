@@ -147,7 +147,7 @@
                    
                   
                   </div>
-            </div>
+            </div>zz
 
     <!-- Our Website Development Methodology -->
     <div class="mx-5 mt-5 wow fadeInUp">
@@ -216,10 +216,10 @@
           </div>
 
 
-          <div class=" bg-primary py-5">
-            <div class="container">
-              <div class="row col-12 ">
-                <div class="col-lg-12 wow fadeIn" data-wow-delay="0.1s">
+          <div class=" py-5">
+            <div class="r">
+              <div class="row d-flex justify-content-center ">
+                <!-- <div class="col-lg-12 wow fadeIn" data-wow-delay="0.1s">
                   	<h1 class="text-white text-center mb-5">
                     	Get in Touch
                   	</h1>
@@ -276,7 +276,8 @@
 		                  </button>
 		                </div>
 		              </div>
-	            	</form>
+	            	</form> -->
+                @include('frontend.layouts.contact')
                 </div>
                 
               </div>
