@@ -5,7 +5,7 @@
     <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img class="w-100" src="{{asset('img\carousel-1.jpg')}}" alt="Image" />
+          <img class="w-100" src="{{asset('img\slider1.jpg')}}" alt="Image" />
           <div class="carousel-caption">
             <div class="container">
               <div class="row">
@@ -225,7 +225,7 @@
       <div id="services-carousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img class="w-100" src="{{asset('img\carousel-1.jpg')}}" alt="Image" />
+            <img class="w-100" src="{{asset('img\slider1.jpg')}}" alt="Image" />
             <!-- <div class="carousel-caption">
               <div class="container">
                 <div class="row">

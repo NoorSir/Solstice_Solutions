@@ -23,7 +23,7 @@ class MailController extends Controller
         contact::create($request->all());
   
         return redirect()->back()
-                         ->with(['success' => 'Thank you for contact us. we will contact you shortly.']);
+        ->with(['success' => 'Thank you for contact us. we will contact you shortly.']);
 
     }
 }
