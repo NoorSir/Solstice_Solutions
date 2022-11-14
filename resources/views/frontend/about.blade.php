@@ -23,7 +23,7 @@
     <div class="container-xxl py-5">
       	<div class="container">
         	<div class="row g-5">
-          		<div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+          		<div class="col-lg-8 wow fadeInUp" data-wow-delay="0.1s">
             		<div class="h-100">
 		              	<h1 class="display-6 mb-5">
 		               		WHO WE ARE
@@ -56,43 +56,8 @@
 		              	<p class="mb-4">
 		                	Solstice Solution is a responsive IT agency in Lahore, Pakistan. We emphasize on colliding creativity and innovation in the best possible way. With unique and aspiring ideas we tend to boost your business. We have a vision and with a futuristic approach, we assist you in getting your hands on the latest and advancing technologies. We stand in your shoes and provide the best digital solutions in Lahore, Pakistan. You dream and we turn them into reality. Your wish is our command.
 		              	</p>
-		              	<div class="col-12">
-		                  	<button class="btn btns  py-3 px-5" type="submit">
-		                    	<object data="{{asset('document\Solstice-Solution-Profile.pdf')}}" type=”pdf/html”>
-		                    		<a href="{{asset('document\Solstice-Solution-Profile.pdf')}} " target="_blank">Company Portfolio</a>
-		                		</object>
-		                  	</button>
-	                	</div>
-            		</div>
-            		<!-- comment -->
-		            <!-- <div
-		              class="position-relative overflow-hidden rounded ps-5 pt-5 h-100"
-		              style="min-height: 400px"
-		            >
-		              	<img
-			                class="position-absolute w-100 h-100"
-			                src="img/about.jpg"
-			                alt=""
-			                style="object-fit: cover"
-		              	/>
-		              	<div
-			                class="position-absolute top-0 start-0 bg-white rounded pe-3 pb-3"
-			                style="width: 200px; height: 200px"
-		              	>
-			                <div
-			                  	class="d-flex flex-column justify-content-center text-center bg-primary rounded h-100 p-3"
-			                >
-				                <h1 class="text-white mb-0">7</h1>
-				                <h2 class="text-white">Years</h2>
-				                <h5 class="text-white mb-0">Experience</h5>
-			                </div>
-		              	</div>
-		            </div> -->
-	            <!-- comment -->
-          		</div>
-          		<div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-            		<div class="h-100">
-              			<h1 class="display-6 mb-5">
+
+		              	<h1 class="display-6 mb-5">
                 			OUR MISSION
               			</h1>
 		            	<!-- <p class="fs-5 text-primary mb-4">
@@ -133,6 +98,44 @@
 	                  			<h5 class="mb-0">Call Us: +92 321 5552245</h5>
                 			</div>
               			</div>
+
+		              	<!-- <div class="col-12">
+		                  	
+	                	</div> -->
+            		</div>
+            		<!-- comment -->
+		            <!-- <div
+		              class="position-relative overflow-hidden rounded ps-5 pt-5 h-100"
+		              style="min-height: 400px"
+		            >
+		              	<img
+			                class="position-absolute w-100 h-100"
+			                src="img/about.jpg"
+			                alt=""
+			                style="object-fit: cover"
+		              	/>
+		              	<div
+			                class="position-absolute top-0 start-0 bg-white rounded pe-3 pb-3"
+			                style="width: 200px; height: 200px"
+		              	>
+			                <div
+			                  	class="d-flex flex-column justify-content-center text-center bg-primary rounded h-100 p-3"
+			                >
+				                <h1 class="text-white mb-0">7</h1>
+				                <h2 class="text-white">Years</h2>
+				                <h5 class="text-white mb-0">Experience</h5>
+			                </div>
+		              	</div>
+		            </div> -->
+	            <!-- comment -->
+          		</div>
+          		<div class="col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+            		<div class="h-100">
+              		<button class="btn btns  py-3 px-5" type="submit">
+		                <object data="{{asset('document\Solstice-Solution-Profile.pdf')}}" type=”pdf/html”>
+		                  <a href="{{asset('document\Solstice-Solution-Profile.pdf')}} " target="_blank">Company Portfolio</a>
+		                </object>
+		              </button>
             		</div>
           		</div>
         	</div>
