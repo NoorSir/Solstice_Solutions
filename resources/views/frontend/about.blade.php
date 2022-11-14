@@ -59,7 +59,7 @@
 		              	<div class="col-12">
 		                  	<button class="btn btns  py-3 px-5" type="submit">
 		                    	<object data="{{asset('document\Solstice-Solution-Profile.pdf')}}" type=”pdf/html”>
-		                    		<a href="{{asset('document\Solstice-Solution-Profile.pdf')}} " target="_blank">Company Portfolio</a>
+		                    		<a class="btns"href="{{asset('document\Solstice-Solution-Profile.pdf')}} " target="_blank">Company Portfolio</a>
 		                		</object>
 		                  	</button>
 	                	</div>
