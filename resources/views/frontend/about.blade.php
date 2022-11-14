@@ -127,7 +127,7 @@
                 			<div class="d-flex align-items-center">
 		                  		<img
 				                    class="flex-shrink-0 rounded-circle me-3"
-				                    src="img/logo.png"
+				                    src="img/logo-sm.png"
 				                    alt=""
 		                  		/>
 	                  			<h5 class="mb-0">Call Us: +92 321 5552245</h5>
