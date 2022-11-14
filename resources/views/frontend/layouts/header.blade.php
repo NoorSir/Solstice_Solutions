@@ -1,6 +1,5 @@
 <DOCTYPE! html>
     <html>
-
     <head>
         <meta charset="utf-8" />
         <title>Solstice Solution - Pakistan's Leading Digital Marketing & Web Developments</title>
@@ -42,50 +41,50 @@
     </head>
     <body>
         <!-- Spinner Start -->
-            <div
+        <div
             id="spinner"
             class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
-            >
+        >
             <div class="spinner-grow text-primary" role="status"></div>
-            </div>
-            <!-- Spinner End -->
+        </div>
+        <!-- Spinner End -->
 
-            <!-- Topbar Start -->
-            <div
-                class="container-fluid topbar  py-2 px-0 d-none d-lg-block"
-            >
+        <!-- Topbar Start -->
+        <div
+            class="container-fluid topbar  py-2 px-0 d-none d-lg-block"
+        >
             <div class="row gx-0 align-items-center">
-            <div class="col-lg-7 px-5 text-start">
-                <div class="h-100 d-inline-flex align-items-center me-4">
-                <!-- <small class="fa fa-phone-alt me-2"></small> -->
-                <small><small class="fa fa-phone-alt me-2"></small> Call us today! +92-321-5552245 &nbsp&nbsp|&nbsp&nbsp  <small class="far fa-envelope-open me-2"></small> info@solsticesolution.com</small>
+                <div class="col-lg-7 px-5 text-start">
+                    <div class="h-100 d-inline-flex align-items-center me-4">
+                    <!-- <small class="fa fa-phone-alt me-2"></small> -->
+                    <small><small class="fa fa-phone-alt me-2"></small> Call us today! +92-321-5552245 &nbsp&nbsp|&nbsp&nbsp  <small class="far fa-envelope-open me-2"></small> info@solsticesolution.com</small>
+                    </div>
+                
+                    <!-- <div class="h-100 d-inline-flex align-items-center me-4">
+                    <small class="far fa-envelope-open me-2"></small>
+                    <small></small>
+                    </div> -->
+                    <!-- <div class="h-100 d-inline-flex align-items-center me-4">
+                    <small class="far fa-clock me-2"></small>
+                    <small>Mon - Fri : 09 AM - 09 PM</small>
+                    </div> -->
                 </div>
-            
-                <!-- <div class="h-100 d-inline-flex align-items-center me-4">
-                <small class="far fa-envelope-open me-2"></small>
-                <small></small>
-                </div> -->
-                <!-- <div class="h-100 d-inline-flex align-items-center me-4">
-                <small class="far fa-clock me-2"></small>
-                <small>Mon - Fri : 09 AM - 09 PM</small>
-                </div> -->
-            </div>
-            <div class="col-lg-5 px-5 text-end">
-                <div class="h-100 d-inline-flex align-items-center">
-                <a class="ms-4" href="https://www.facebook.com/SolsticesolutionDigital/"
-                    ><i class="fab text-white fa-facebook-f"></i
-                ></a>
-                <!-- <a class="text-white-50 ms-4" href=""
-                    ><i class="fab fa-twitter"></i
-                ></a> -->
-                <a class=" ms-4" href="https://www.linkedin.com/company/solstice-solution/"
-                    ><i class="fab text-white fa-linkedin-in"></i
-                ></a>
-                <a class=" ms-4" href="#"
-                    ><i class="fab text-white fa-instagram"></i
-                ></a>
+                <div class="col-lg-5 px-5 text-end">
+                    <div class="h-100 d-inline-flex align-items-center">
+                        <a class="ms-4" href="https://www.facebook.com/SolsticesolutionDigital/"
+                            ><i class="fab text-white fa-facebook-f"></i
+                        ></a>
+                        <!-- <a class="text-white-50 ms-4" href=""
+                            ><i class="fab fa-twitter"></i
+                        ></a> -->
+                        <a class=" ms-4" href="https://www.linkedin.com/company/solstice-solution/"
+                            ><i class="fab text-white fa-linkedin-in"></i
+                        ></a>
+                        <a class=" ms-4" href="#"
+                            ><i class="fab text-white fa-instagram"></i
+                        ></a>
+                    </div>
                 </div>
-            </div>
             </div>
         </div>
         <!-- Topbar End -->
@@ -112,37 +111,34 @@
             <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav mx-auto rounded pe-4 py-3 py-lg-0">
-                <a href="{{url('/')}}" class="nav-item nav-link active">Home</a>
-                <a href="{{url('/about-us')}}" class="nav-item nav-link">About Us</a>
-                <div class="nav-item dropdown">
-                <a
-                    href="#"
-                    class="nav-link "
-                    data-bs-toggle="dropdown"
-                    >Services</a
-                >
-                <div class="dropdown-menu bg-light border-0 m-0">
-                    <a href="webdevelopment" class="dropdown-item">Website Development</a>
-                    <a href="#" class="dropdown-item">Software Development</a>
-                    <a href="#" class="dropdown-item">Mobile App Development</a>
-                    <a href="#" class="dropdown-item">Digital Marketing</a>
-                    <a href="#" class="dropdown-item">Graphics Designing</a>
+                <div class="navbar-nav mx-auto rounded pe-4 py-3 py-lg-0">
+                    <a href="{{url('/')}}" class="nav-item nav-link active">Home</a>
+                    <a href="{{url('/about-us')}}" class="nav-item nav-link">About Us</a>
+                    <div class="nav-item dropdown">
+                        <a
+                            href="#"
+                            class="nav-link "
+                            data-bs-toggle="dropdown"
+                            >Services</a
+                        >
+                        <div class="dropdown-menu bg-light border-0 m-0">
+                            <a href="{{url('webdevelopment')}}" class="dropdown-item">Website Development</a>
+                            <a href="#" class="dropdown-item">Software Development</a>
+                            <a href="#" class="dropdown-item">Mobile App Development</a>
+                            <a href="#" class="dropdown-item">Digital Marketing</a>
+                            <a href="#" class="dropdown-item">Graphics Designing</a>
+                        </div>
+                    </div>
+                    <!-- <form method="get">
+        			<a type ="submit"class="nav-item nav-link" target="_blank" href="{{asset('document\Solstice-Solution-Profile.pdf')}}" >Portfolio</a>
+        			</form> -->
+                    <object data="{{asset('document\Solstice-Solution-Profile.pdf')}}" type=”pdf/html”>
+                        <a href="{{asset('document\Solstice-Solution-Profile.pdf')}} " target="_blank" class="nav-item nav-link">Portfolio</a>
+                    </object>
+                    <a href="#" class="nav-item nav-link">Process</a>
+                    <a href="#" class="nav-item nav-link">Blog</a>
+                    <!-- <a href="#" class="nav-item nav-link">Contact Us</a> -->
                 </div>
-                </div>
-                <!-- <form method="get">
-			<a type ="submit"class="nav-item nav-link" target="_blank" href="{{asset('document\Solstice-Solution-Profile.pdf')}}" >Portfolio</a>
-			</form> -->
-
-            <object data="{{asset('document\Solstice-Solution-Profile.pdf')}}" type=”pdf/html”>
-
-                <a href="{{asset('document\Solstice-Solution-Profile.pdf')}} " target="_blank" class="nav-item nav-link">Portfolio</a>
-
-                </object>
-                <a href="#" class="nav-item nav-link">Process</a>
-                <a href="#" class="nav-item nav-link">Blog</a>
-                <!-- <a href="#" class="nav-item nav-link">Contact Us</a> -->
-            </div>
             </div>
             <a href="" class="btn btns px-3 d-none d-lg-block">Contact Us</a>
         </nav>

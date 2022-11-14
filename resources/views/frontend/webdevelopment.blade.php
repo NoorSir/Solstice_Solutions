@@ -7,7 +7,7 @@
       data-wow-delay="0.1s"
     >
       <div class="container py-5">
-        <h1 class="display-4 animated slideInDown mb-4">About Us</h1>
+        <h1 class="display-4 animated slideInDown mb-4">Web Development</h1>
         <nav aria-label="breadcrumb animated slideInDown">
           <ol class="breadcrumb mb-0">
             <li class="breadcrumb-item"><a href="#">Home</a></li>
