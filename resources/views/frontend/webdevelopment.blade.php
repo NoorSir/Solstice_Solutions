@@ -30,6 +30,7 @@
       <h6 class="text-center">Utilize the Best Web Development Company for User-Centric Products</h6>
         <p>Our user-centered strategy focuses on creating memorable experiences that foster user relationships. You can acquire any website you want at <a href="index.html" target="_blank"><b>Solstice </b></a>, and it’s our obligation to provide you with the best Custom Web Development Services Company possible through our website maintenance services.</p>
     </div>
+    
     <div class="row col-12 mx-1 container justify-content-center d-flex align-content-center">
       <div class="col-lg-6 col-md-6 col-xl-3 wow fadeInUp" data-wow-delay="0.1s" style="box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;">
         <div class="service-item rounded h-100 p-5">

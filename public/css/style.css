@@ -1,4 +1,7 @@
 /********** Template CSS **********/
+*{
+    overflow-x: hidden;
+}
 a{
     text-decoration: none;
     color: rgb(85, 84, 84);
