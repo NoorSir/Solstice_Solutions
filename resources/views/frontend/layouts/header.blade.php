@@ -1,11 +1,5 @@
-<<<<<<< Updated upstream
-<DOCTYPE! html>
-    <html>
-=======
 <DOCTYPE! HTML>
     <html>
-
->>>>>>> Stashed changes
     <head>
         <meta charset="utf-8" />
         <title>Solstice Solution - Pakistan's Leading Digital Marketing & Web Developments</title>
