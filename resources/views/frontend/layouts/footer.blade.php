@@ -79,6 +79,8 @@
             </div>
         </div>
     </div>
+</body>
+</html>
     <!-- Footer End -->
 
     <!-- Back to Top -->

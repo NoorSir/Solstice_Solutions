@@ -1,5 +1,6 @@
 @extends('frontend.layouts.main')
 @section('main-content')
+<<<<<<< Updated upstream
   <!-- Carousel Start -->
   <div class="container-fluid p-0 mb-5 wow fadeIn" data-wow-delay="0.1s">
     <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
@@ -514,4 +515,9 @@
           <h1 >Get in Touch with US <img src="img/icon/anchor.png" alt="" width="20px"></h1>
         </a>
     </div> -->
+=======
+<div>
+    <h2>zeeshan noor</h2>
+</div>
+>>>>>>> Stashed changes
 @endsection
