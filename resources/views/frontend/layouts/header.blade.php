@@ -8,7 +8,33 @@
         <meta content="" name="description" />
     
         <!-- Favicon -->
-        <link href="img/favicon.ico" rel="icon" />
+        <link rel="apple-touch-icon" sizes="57x57" href="{{asset('favicons/apple-icon-57x57.png')}}">
+        <link rel="apple-touch-icon" sizes="60x60" href="{{asset('favicons/apple-icon-60x60.png')}}">
+        <link rel="apple-touch-icon" sizes="72x72" href="{{asset('favicons/apple-icon-72x72.png')}}">
+        <link rel="apple-touch-icon" sizes="76x76" href="{{asset('favicons/apple-icon-76x76.png')}}">
+
+        <link rel="android-icon" sizes="57x57" href="{{asset('favicons/android-icon-96x96.png')}}">
+        <link rel="android-icon" sizes="60x60" href="{{asset('favicons/android-icon-144x144.png')}}">
+        <link rel="android-icon" sizes="72x72" href="{{asset('favicons/android-icon-192x192.png')}}">
+
+        <link rel="ms-icon" sizes="76x76" href="{{asset('favicons/ms-icon-70x70.png')}}">
+        <link rel="ms-icon" sizes="114x114" href="{{asset('favicons/ ms-icon-144x144.png')}}">
+        <link rel="ms-icon" sizes="120x120" href="{{asset('favicons/ ms-icon-150x150.png')}}">
+        <link rel="ms-icon" sizes="144x144" href="{{asset('favicons/ ms-icon-310x310.png')}}">
+
+        <link rel="apple-touch-icon" sizes="114x114" href="{{asset('favicons/apple-icon-114x114.png')}}">
+        <link rel="apple-touch-icon" sizes="120x120" href="{{asset('favicons/apple-icon-120x120.png')}}">
+        <link rel="apple-touch-icon" sizes="144x144" href="{{asset('favicons/apple-icon-144x144.png')}}">
+        <link rel="apple-touch-icon" sizes="152x152" href="{{asset('favicons/apple-icon-152x152.png')}}">
+        <link rel="apple-touch-icon" sizes="180x180" href="{{asset('favicons/apple-icon-180x180.png')}}">
+        <link rel="icon" type="image/png" sizes="192x192"  href="{{asset('favicons/android-icon-192x192.png')}}">
+        <link rel="icon" type="image/png" sizes="32x32" href="{{asset('favicons/favicon-32x32.png')}}">
+        <link rel="icon" type="image/png" sizes="96x96" href="{{asset('favicons/favicon-96x96.png')}}">
+        <link rel="icon" type="image/png" sizes="16x16" href="{{asset('favicons/favicon-16x16.png')}}">
+        <link rel="manifest" href="/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
     
         <!-- Google Web Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -38,6 +64,8 @@
         <!-- "{{asset('image\clinic\footer-house.jpg')}}"  -->
         <!-- Template Stylesheet -->
         <link href="{{asset('css\style.css')}}" rel="stylesheet" />
+
+       
     </head>
     <body>
         <!-- Spinner Start -->
@@ -91,8 +119,7 @@
 
         <!-- Navbar Start -->
         <nav
-            class="navbar navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5"
-        >
+            class="navbar  navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5"id="topheader">
             <a href="index.html" class="navbar-brand d-flex align-items-center">
             <h1 class="m-0">
                 <img
@@ -111,9 +138,11 @@
             <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
-                <div class="navbar-nav mx-auto rounded pe-4 py-3 py-lg-0">
-                    <a href="{{url('/')}}" class="nav-item nav-link active">Home</a>
-                    <a href="{{url('/about-us')}}" class="nav-item nav-link">About Us</a>
+                <div class="navbar-nav  mx-auto rounded pe-4 py-3 py-lg-0">
+                    
+                    <a href="{{url('/')}}" class=" nav-link  {{request()->is('/') ? 'active': ''}}" >Home</a>
+                   
+                <a href="{{url('/about-us')}}" class=" nav-link   {{request()->is('about-us') ? 'active' : ''}}">About Us</a>
                     <div class="nav-item dropdown">
                         <a
                             href="#"
@@ -122,7 +151,7 @@
                             >Services</a
                         >
                         <div class="dropdown-menu bg-light border-0 m-0">
-                            <a href="{{url('webdevelopment')}}" class="dropdown-item">Website Development</a>
+                            <a href="{{url('webdevelopment')}}" class="dropdown-item  {{request()->is('webdevelopment') ? 'active' : ''}}">Website Development</a>
                             <a href="#" class="dropdown-item">Software Development</a>
                             <a href="#" class="dropdown-item">Mobile App Development</a>
                             <a href="#" class="dropdown-item">Digital Marketing</a>
@@ -132,9 +161,9 @@
                     <!-- <form method="get">
         			<a type ="submit"class="nav-item nav-link" target="_blank" href="{{asset('document\Solstice-Solution-Profile.pdf')}}" >Portfolio</a>
         			</form> -->
-                    <object data="{{asset('document\Solstice-Solution-Profile.pdf')}}" type=”pdf/html”>
+                    <!-- <object data="{{asset('document\Solstice-Solution-Profile.pdf')}}" type=”pdf/html”>
                         <a href="{{asset('document\Solstice-Solution-Profile.pdf')}} " target="_blank" class="nav-item nav-link">Portfolio</a>
-                    </object>
+                    </object> -->
                     <a href="#" class="nav-item nav-link">Process</a>
                     <a href="#" class="nav-item nav-link">Blog</a>
                     <!-- <a href="#" class="nav-item nav-link">Contact Us</a> -->
@@ -143,4 +172,4 @@
             <a href="" class="btn btns px-3 d-none d-lg-block">Contact Us</a>
         </nav>
         <!-- Navbar End -->
-    
+  

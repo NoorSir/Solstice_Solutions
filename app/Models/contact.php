@@ -24,7 +24,7 @@ class Contact extends Model
   
         static::created(function ($item) {
                 
-            $adminEmail = "zeeshannoorofficial@gmail.com";
+            $adminEmail = "infosolsticesolution@gmail.com";
             Mail::to($adminEmail)->send(new ContactMail($item));
         });
     }

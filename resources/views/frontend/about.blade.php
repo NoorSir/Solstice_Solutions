@@ -129,13 +129,20 @@
 		            </div> -->
 	            <!-- comment -->
           		</div>
-          		<div class="col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+          		<div class=" col-10 col-sm-6 col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
             		<div class="h-100">
-              		<button class="btn btns  py-3 px-5" type="submit">
+              		<button class="btn btns col-9 py-3 px-5" type="submit">
 		                <object data="{{asset('document\Solstice-Solution-Profile.pdf')}}" type=”pdf/html”>
-		                  <a href="{{asset('document\Solstice-Solution-Profile.pdf')}} " target="_blank">Company Portfolio</a>
+		                  <a href="{{asset('document\Solstice-Solution-Profile.pdf')}}" class="btns" target="_blank">Company Portfolio</a>
 		                </object>
 		              </button>
+
+					  <button class="btn btns mt-2 col-9 py-3 px-5" type="submit">
+		               
+		                  <a href="{{asset('document\Solstice-Solution-Profile.pdf')}}" class="btns" target="_blank"> Behance</a>
+		               
+		              </button>
+
             		</div>
           		</div>
         	</div>
