@@ -395,9 +395,11 @@
       </div>
     </div>
   <!-- Project Section -->
-	<div class="project mb-2 mt-5"><br>
-		<div class="mt-3 container"><h4>Projects</h4></div>
-		  <div class="row mt-4 mx-5  mx-sm-5 mx-md-5 mx-lg-0 wow fadeInUp">
+	<div class=""><br>
+		<div class="mt-3 "><h4>Projects</h4></div>
+
+    @include('frontend/cards')
+		  <!-- <div class="row mt-4 mx-5  mx-sm-5 mx-md-5 mx-lg-0 wow fadeInUp">
         <div class="mt-4  mt-sm-0  col-12 col-sm-6 col-md-4 col-lg-4">
           <a href="#">
             <div class="content">
@@ -489,7 +491,7 @@
   					<p class="content-text">in Website</p>
 				  </div>
   			</div>
-			</div>
+			</div> -->
 		</div>		
 	</div>
     <!-- Our Team & Culture -->
@@ -534,4 +536,6 @@
           <h1 >Get in Touch with US <img src="img/icon/anchor.png" alt="" width="20px"></h1>
         </a>
     </div> -->
+
+    
 @endsection
