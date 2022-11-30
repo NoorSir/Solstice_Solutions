@@ -7,7 +7,7 @@
         <meta content="" name="keywords" />
         <meta content="" name="description" />
           <!-- Themefisher Icon font -->
-       <link rel="stylesheet" href="{{asset('plugins/themefisher-font/style.css')}}">
+       <!-- <link rel="stylesheet" href="{{asset('plugins/themefisher-font/style.css')}}"> -->
          <!-- bootstrap.min css -->
        <link rel="stylesheet" href="{{asset('plugins/bootstrap/bootstrap.min.css')}}">
     
@@ -71,81 +71,84 @@
 
         <style>
             .portfolio-filter {
-            margin-bottom: 40px;
-            text-align: center;
-            }
-            .portfolio-filter button {
-              cursor: pointer;
-              display: inline-block;
-              font-size: 14px;
-              padding: 8px 20px;
-              text-transform: uppercase;
-              background: #28ABE3;
-              border: none;
-              color: #fff;
-              outline: none;
-              margin: 6px 4px;
-            }
-            .portfolio-filter button.active {
-              background: #28ABE3;
-              color: #fff;
-              border-radius: 50px;
-            }
+  margin-bottom: 40px;
+  text-align: center;
+}
+.portfolio-filter button {
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  padding: 8px 20px;
+  text-transform: uppercase;
+  background: #28ABE3;
+  border: none;
+  color: #fff;
+  outline: none;
+  margin: 6px 4px;
+}
+.portfolio-filter button.active {
+  background: #28ABE3;
+  color: #fff;
+  border-radius: 50px;
+}
 
-            .portfolio-block {
-              position: relative;
-              margin-bottom: 30px;
-            }
-            .portfolio-block:before {
-              transition: all 0.3s ease-in-out;
-              background: rgba(0, 0, 0, 0.55);
-              opacity: 0;
-              top: 0;
-              right: 0;
-              bottom: 0;
-              left: 0;
-              position: absolute;
-              content: "";
-            }
-            .portfolio-block:hover:before {
-              opacity: 1;
-            }
-            .portfolio-block:hover .caption h4 {
-              top: 45%;
-            }
-            .portfolio-block:hover .caption {
-              opacity: 1;
-              top: 55%;
-            }
-            .portfolio-block .caption {
-              position: absolute;
-              top: 50%;
-              left: 50%;
-              opacity: 0;
-              transform: translate(-50%, -50%);
-              z-index: 9;
-              transition: all 0.3s ease-in-out;
-              text-align: center;
-            }
-            .portfolio-block .caption h4 {
-              font-size: 16px;
-            }
-            .portfolio-block .caption h4 a {
-              color: #fff;
-            }
-            .portfolio-block .caption .search-icon {
-              background: #28ABE3;
-              color: #fff;
-              display: inline-block;
-              height: 45px;
-              width: 45px;
-              font-size: 17px;
-              border-radius: 30px;
-              margin-bottom: 20px;
-              text-align: center;
-              line-height: 47px;
-            }
-        </style>  
+.portfolio-block {
+  position: relative;
+  margin-bottom: 30px;
+}
+.portfolio-block:before {
+  transition: all 0.3s ease-in-out;
+  background: rgba(0, 0, 0, 0.55);
+  opacity: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  content: "";
+}
+.portfolio-block:hover:before {
+  opacity: 1;
+}
+.portfolio-block:hover .caption h4 {
+  top: 45%;
+}
+.portfolio-block:hover .caption {
+  opacity: 1;
+  top: 55%;
+}
+.portfolio-block .caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  transform: translate(-50%, -50%);
+  z-index: 9;
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+}
+.portfolio-block .caption h4 {
+  font-size: 16px;
+}
+.portfolio-block .caption h4 a {
+  color: #fff;
+}
+.portfolio-block .caption .search-icon {
+  background: #28ABE3;
+  color: #fff;
+  display: inline-block;
+  height: 45px;
+  width: 45px;
+  font-size: 17px;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+  line-height: 47px;
+}
+  
+        </style>
+
+       
     </head>
     <body>
         <!-- Spinner Start -->
