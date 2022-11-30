@@ -7,7 +7,7 @@
         <meta content="" name="keywords" />
         <meta content="" name="description" />
           <!-- Themefisher Icon font -->
-       <link rel="stylesheet" href="{{asset('plugins/themefisher-font/style.css')}}">
+       <!-- <link rel="stylesheet" href="{{asset('plugins/themefisher-font/style.css')}}"> -->
          <!-- bootstrap.min css -->
        <link rel="stylesheet" href="{{asset('plugins/bootstrap/bootstrap.min.css')}}">
     
@@ -80,7 +80,7 @@
   font-size: 14px;
   padding: 8px 20px;
   text-transform: uppercase;
-  background: #28ABE3;
+  background: #E44647;
   border: none;
   color: #fff;
   outline: none;
@@ -98,7 +98,7 @@
 }
 .portfolio-block:before {
   transition: all 0.3s ease-in-out;
-  background: rgba(0, 0, 0, 0.55);
+  background: hsla(0, 75%, 58%, 0.699);
   opacity: 0;
   top: 0;
   right: 0;
@@ -133,7 +133,7 @@
 .portfolio-block .caption h4 a {
   color: #fff;
 }
-.portfolio-block .caption .search-icon {
+/* .portfolio-block .caption .search-icon {
   background: #28ABE3;
   color: #fff;
   display: inline-block;
@@ -145,7 +145,7 @@
   text-align: center;
   line-height: 47px;
 }
-  
+   */
         </style>
 
        

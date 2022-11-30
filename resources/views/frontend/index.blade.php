@@ -396,7 +396,10 @@
     </div>
   <!-- Project Section -->
 	<div class=""><br>
-		<div class="mt-3 "><h4>Projects</h4></div>
+		<div class="mt-3  container"><h4>Projects</h4>
+     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis, aspernatur cupiditate ea cum soluta vel aut qui debitis fugiat a consectetur consequatur, laudantium ratione facilis nam quod, praesentium molestiae repellendus?</p>
+  
+    </div>
 
     @include('frontend/cards')
 		  <!-- <div class="row mt-4 mx-5  mx-sm-5 mx-md-5 mx-lg-0 wow fadeInUp">
