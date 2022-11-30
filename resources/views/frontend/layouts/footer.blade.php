@@ -79,17 +79,16 @@
             </div>
         </div>
     </div>
-</body>
-</html>
-    <!-- Footer End -->
-
-    <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btns btn-lg-square back-to-top"
-    ><i class="bi bi-arrow-up"></i
-    ></a>
+    </body>
     </html>
-</body>
+        <!-- Footer End -->
 
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btns btn-lg-square back-to-top"
+        ><i class="bi bi-arrow-up"></i
+        ></a>
+        </html>
+    </body>
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
@@ -98,46 +97,25 @@
     <script src="{{asset('lib\waypoints\waypoints.min.js')}}"></script>
     <script src="{{asset('lib\owlcarousel\owl.carousel.min.js')}}"></script>
     <script src="{{asset('lib\counterup\counterup.min.js')}}"></script>
-
     <!-- Template Javascript -->
     <script src="{{asset('js\main.js')}}"></script>
-
-
     <!-- Main jQuery -->
-<script src="{{asset('plugins/jquery/jquery.min.js')}}"></script>
-
-<!-- Bootstrap4 -->
-<!-- <script src="plugins/bootstrap/bootstrap.min.js"></script> -->
-<!-- Parallax -->
-<!-- <script src="plugins/parallax/jquery.parallax-1.1.3.js"></script> -->
-<!-- lightbox -->
-<!-- <script src="plugins/lightbox2/js/lightbox.min.js"></script> -->
-<!-- Owl Carousel -->
-<script src="{{asset('plugins/slick/slick.min.js')}}"></script>
-<!-- filter -->
-<script src="{{asset('plugins/filterizr/jquery.filterizr.min.js')}}"></script>
-<!-- Smooth Scroll js -->
-<!-- <script src="plugins/smooth-scroll/smooth-scroll.min.js"></script> -->
-<!-- Google Map -->
-<!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU"></script>
-<script src="plugins/google-map/gmap.js"></script> -->
-
-<!-- Custom js -->
-<!-- <script src="js/script.js"></script> -->
-
-<script>
-	 $('.hero-slider').slickAnimation();
-
-/* ========================================================================= */
-/*	Portfolio Filtering Hook
-/* =========================================================================  */
-// filter
-setTimeout(function(){
-  var containerEl = document.querySelector('.filtr-container');
-  var filterizd;
-  if (containerEl) {
-	filterizd = $('.filtr-container').filterizr({});
-  }
-}, 500);
-
-</script>
+    <script src="{{asset('plugins/jquery/jquery.min.js')}}"></script>
+    <!-- Owl Carousel -->
+    <script src="{{asset('plugins/slick/slick.min.js')}}"></script>
+    <!-- filter -->
+    <script src="{{asset('plugins/filterizr/jquery.filterizr.min.js')}}"></script>
+    <script>
+    	$('.hero-slider').slickAnimation();
+        /* ========================================================================= */
+        /*	Portfolio Filtering Hook
+        /* =========================================================================  */
+        // filter
+        setTimeout(function(){
+          var containerEl = document.querySelector('.filtr-container');
+          var filterizd;
+          if (containerEl) {
+        	filterizd = $('.filtr-container').filterizr({});
+          }
+        }, 500);
+    </script>
